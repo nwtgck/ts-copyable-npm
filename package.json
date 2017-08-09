@@ -12,6 +12,10 @@
   "keywords": [
     "TypeScript"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nwtgck/ts-copyable-npm"
+  },
   "author": "Ryo Ota",
   "license": "MIT",
   "devDependencies": {
