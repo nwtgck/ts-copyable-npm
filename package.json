@@ -1,7 +1,7 @@
 {
   "name": "ts-copyable",
-  "version": "0.0.2",
-  "description": "Type-safe .copy() for TypeScript",
+  "version": "0.0.3",
+  "description": "Type-safe .copy() for TypeScript inspired by Scala case-class",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
