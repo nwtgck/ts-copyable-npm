@@ -1,4 +1,4 @@
-# ts-copyable [![Build Status](https://travis-ci.org/nwtgck/ts-copyable-npm.svg?branch=master)](https://travis-ci.org/nwtgck/ts-copyable-npm)
+# ts-copyable [![npm version](https://badge.fury.io/js/ts-copyable.svg)](https://badge.fury.io/js/ts-copyable) [![Build Status](https://travis-ci.org/nwtgck/ts-copyable-npm.svg?branch=master)](https://travis-ci.org/nwtgck/ts-copyable-npm)
 
 A npm package making your class copyable.
 
