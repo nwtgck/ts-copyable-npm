@@ -1,4 +1,4 @@
-# ts-copyable
+# ts-copyable [![Build Status](https://travis-ci.org/nwtgck/ts-copyable-npm.svg?branch=master)](https://travis-ci.org/nwtgck/ts-copyable-npm)
 
 A npm package making your class copyable.
 
