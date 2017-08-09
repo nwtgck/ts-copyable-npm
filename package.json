@@ -1,0 +1,24 @@
+{
+  "name": "ts-copyable",
+  "version": "0.0.1",
+  "description": "Type-safe .copy() for TypeScript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublish": "npm run build",
+    "test": "mocha --compilers ts:espower-typescript/guess"
+  },
+  "keywords": [
+    "TypeScript"
+  ],
+  "author": "Ryo Ota",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/mocha": "^2.2.41",
+    "espower-typescript": "^8.1.0",
+    "mocha": "^3.5.0",
+    "power-assert": "^1.4.4",
+    "typescript": "^2.4.2"
+  }
+}
