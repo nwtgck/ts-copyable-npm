@@ -2,7 +2,7 @@
 
 A npm package making your class copyable.
 
-This package is inspired by `.copy` in Scala case-class
+Inspired by `.copy` in Scala case-class
 
 
 ## How to install
@@ -13,7 +13,7 @@ $ npm install --save ts-copyable
 
 ## How to use
 
-### before
+### Before
 
 ```ts
 class Person{
@@ -24,11 +24,14 @@ class Person{
 ```
 
 
-### after
+### After
+
 
 ```ts
 import Copyable  from 'ts-copyable';
+```
 
+```ts
 class Person extends Copyable<Person>{
     constructor(readonly name: string, readonly age: number){
         super(Person);
