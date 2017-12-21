@@ -61,7 +61,7 @@ p1.copy({age: "abc"});
 p1.copy({somethingElse: 99});
 // Compile error (GOOD!)
 
-p1.mapCopy({age: prev => prev+"abc});
+p1.mapCopy({age: prev => prev+"abc"});
 // Compile error (GOOD!)
 
 ```
