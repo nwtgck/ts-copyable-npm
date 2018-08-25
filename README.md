@@ -1,5 +1,5 @@
 # ts-copyable
-[![npm version](https://badge.fury.io/js/ts-copyable.svg)](https://badge.fury.io/js/ts-copyable) [![Build Status](https://travis-ci.org/nwtgck/ts-copyable-npm.svg?branch=master)](https://travis-ci.org/nwtgck/ts-copyable-npm)
+[![npm version](https://badge.fury.io/js/ts-copyable.svg)](https://badge.fury.io/js/ts-copyable) [![Build Status](https://travis-ci.org/nwtgck/ts-copyable-npm.svg?branch=master)](https://travis-ci.org/nwtgck/ts-copyable-npm) [![Greenkeeper badge](https://badges.greenkeeper.io/nwtgck/ts-copyable-npm.svg)](https://greenkeeper.io/)
 
 Type-safe .copy() for TypeScript inspired by Scala case-class
 
