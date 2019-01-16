@@ -27,11 +27,11 @@ class Person{
 
 
 ```ts
-import Copyable  from 'ts-copyable';
+import tsCopyable from 'ts-copyable';
 ```
 
 ```ts
-class Person extends Copyable<Person>{
+class Person extends tsCopyable<Person>{
     constructor(readonly name: string, readonly age: number){
         super(Person);
     }
