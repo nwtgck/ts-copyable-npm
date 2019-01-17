@@ -22,7 +22,7 @@ export type Constructable<T> = new(...args: any[]) => T; // (from: http://blog.y
  * inspired by case-class .copy in Scala
  *
  */
-export default class Copyable<T>{
+export class Copyable<T>{
     constructor(private _constructor: Constructable<T>){
     }
 

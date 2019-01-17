@@ -17,7 +17,7 @@ $ npm install --save ts-copyable
 ```ts
 class Person{
     constructor(readonly name: string, readonly age: number){
-    
+
     }
 }
 ```
@@ -27,7 +27,7 @@ class Person{
 
 
 ```ts
-import Copyable  from 'ts-copyable';
+import { Copyable } from 'ts-copyable';
 ```
 
 ```ts
@@ -48,7 +48,7 @@ p1.copy({age: 2});
 // => Person("jack", 2)
 
 p1.mapCopy({age: prev => prev+1});
-// => Person("jack", 11) 
+// => Person("jack", 11)
 ```
 
 ## How about type-safety?
