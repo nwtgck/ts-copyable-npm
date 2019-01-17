@@ -1,5 +1,5 @@
 # ts-copyable
-[![npm version](https://badge.fury.io/js/ts-copyable.svg)](https://badge.fury.io/js/ts-copyable) [![Build Status](https://travis-ci.org/nwtgck/ts-copyable-npm.svg?branch=master)](https://travis-ci.org/nwtgck/ts-copyable-npm)
+[![npm version](https://badge.fury.io/js/ts-copyable.svg)](https://badge.fury.io/js/ts-copyable) [![Build Status](https://travis-ci.org/nwtgck/ts-copyable-npm.svg?branch=master)](https://travis-ci.org/nwtgck/ts-copyable-npm) [![Greenkeeper badge](https://badges.greenkeeper.io/nwtgck/ts-copyable-npm.svg)](https://greenkeeper.io/)
 
 Type-safe .copy() for TypeScript inspired by Scala case-class
 
@@ -17,7 +17,7 @@ $ npm install --save ts-copyable
 ```ts
 class Person{
     constructor(readonly name: string, readonly age: number){
-    
+
     }
 }
 ```
@@ -27,7 +27,7 @@ class Person{
 
 
 ```ts
-import Copyable  from 'ts-copyable';
+import { Copyable } from 'ts-copyable';
 ```
 
 ```ts
@@ -48,7 +48,7 @@ p1.copy({age: 2});
 // => Person("jack", 2)
 
 p1.mapCopy({age: prev => prev+1});
-// => Person("jack", 11) 
+// => Person("jack", 11)
 ```
 
 ## How about type-safety?

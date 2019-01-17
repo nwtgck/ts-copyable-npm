@@ -1,5 +1,6 @@
-import Copyable  from '../lib/index';
 import * as assert from 'power-assert';
+
+import { Copyable } from '../lib/index';
 
 /**
  * Copyable Person class
